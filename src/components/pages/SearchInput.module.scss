@@ -1,0 +1,21 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    & .input_wrapper {
+        height: 200px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        & .input_ele {
+            height: 36px;
+            width: 200px;
+        }
+        & .btn {
+            height: 36px;
+            margin-left: 30px;
+        }
+    }
+}
